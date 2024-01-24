@@ -5,7 +5,7 @@ import News from './Components/News';
 import Navbar from './Components/Navbar';
 import { BrowserRouter , Routes,Route } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
-import Card from './Components/Card';
+
 
 export default class App extends Component {
  
