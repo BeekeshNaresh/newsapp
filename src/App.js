@@ -5,6 +5,7 @@ import News from './Components/News';
 import Navbar from './Components/Navbar';
 import { BrowserRouter , Routes,Route } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
+import Card from './Components/Card';
 
 export default class App extends Component {
  
@@ -41,13 +42,13 @@ this.setState({progress:progress})
     return (
       <div>
         <BrowserRouter>
-        
         <Navbar  news={this.state}/>
         <LoadingBar
         color='#f11946'
         height="2px"
         progress={this.state.progress}
         
+       
       />
         <Routes>
         
